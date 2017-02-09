@@ -11,6 +11,20 @@ app.get('/scrape', function(req, res){
     if (error){console.log(error);}
     if(!error){
       var $ = cheerio.load(html);
+      /*
+      name - 0
+      name abreviation - 1
+      minutes - 2
+      points - 3
+      fgm-a - 4
+      ftm-a - 5
+      3pm-a - 6
+      rebounds - 7
+      assists - 8
+      steals - 9
+      turnovers - 10
+      personalfouls - 11
+      */
       var name, nameAbv, min, pts, fgmA, ftmA, threepmA, reb, ast, stl, to, pf;
       var attrs = [name, nameAbv, min, pts, fgmA, ftmA, threepmA, reb, ast, stl, to, pf];
       var keys = ["name", "nameAbv", "min", "pts", "fgmA", "ftmA", "threepmA", "reb", "ast", "stl", "to", "pf"];
@@ -20,20 +34,6 @@ app.get('/scrape', function(req, res){
         var json = {};
         $('.rowlink').eq(j).filter(function(){
           var data = $(this);
-          /*
-          name - 0
-          nameAbv - 1
-          minutes - 2
-          points - 3
-          fgm-a - 4
-          ftm-a - 5
-          3pm-a - 6
-          rebounds - 7
-          assists - 8
-          steals - 9
-          turnovers - 10
-          personalfouls - 11
-          */
           for (var i = 0; i <= 11; i++){
             attrs[i] = data.children().eq(i).text();
             if (data.children().length < 12) {
