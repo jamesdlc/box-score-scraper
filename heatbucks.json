@@ -10,7 +10,8 @@
         "reb": "6",
         "ast": "3",
         "stl": "1",
-        "to": "0",
+        "blk": "0",
+        "to": "1",
         "pf": "1"
     },
     {
@@ -24,7 +25,8 @@
         "reb": "16",
         "ast": "0",
         "stl": "0",
-        "to": "1",
+        "blk": "1",
+        "to": "3",
         "pf": "3"
     },
     {
@@ -38,8 +40,9 @@
         "reb": "4",
         "ast": "7",
         "stl": "2",
-        "to": "0",
-        "pf": "5"
+        "blk": "0",
+        "to": "5",
+        "pf": "3"
     },
     {
         "name": "Wayne Ellington",
@@ -52,7 +55,8 @@
         "reb": "2",
         "ast": "1",
         "stl": "0",
-        "to": "0",
+        "blk": "0",
+        "to": "1",
         "pf": "1"
     },
     {
@@ -66,8 +70,9 @@
         "reb": "2",
         "ast": "1",
         "stl": "0",
-        "to": "0",
-        "pf": "1"
+        "blk": "0",
+        "to": "1",
+        "pf": "2"
     },
     {
         "name": "James Johnson",
@@ -80,8 +85,9 @@
         "reb": "4",
         "ast": "4",
         "stl": "2",
-        "to": "2",
-        "pf": "3"
+        "blk": "2",
+        "to": "3",
+        "pf": "1"
     },
     {
         "name": "Tyler Johnson",
@@ -94,8 +100,9 @@
         "reb": "4",
         "ast": "6",
         "stl": "0",
-        "to": "2",
-        "pf": "0"
+        "blk": "2",
+        "to": "0",
+        "pf": "5"
     },
     {
         "name": "Okaro White",
@@ -108,8 +115,9 @@
         "reb": "5",
         "ast": "1",
         "stl": "0",
+        "blk": "0",
         "to": "0",
-        "pf": "0"
+        "pf": "2"
     },
     {
         "name": "Willie Reed",
@@ -122,64 +130,29 @@
         "reb": "5",
         "ast": "0",
         "stl": "0",
-        "to": "0",
-        "pf": "1"
+        "blk": "0",
+        "to": "1",
+        "pf": "3"
     },
     {
         "name": "Marcus Georges-Hunt",
         "nameAbv": "M. Georges-Hunt",
-        "min": "COACH'S DECISION",
-        "pts": "",
-        "fgmA": "",
-        "ftmA": "",
-        "threepmA": "",
-        "reb": "",
-        "ast": "",
-        "stl": "",
-        "to": "",
-        "pf": ""
+        "min": "COACH'S DECISION"
     },
     {
         "name": "Udonis Haslem",
         "nameAbv": "U. Haslem",
-        "min": "COACH'S DECISION",
-        "pts": "",
-        "fgmA": "",
-        "ftmA": "",
-        "threepmA": "",
-        "reb": "",
-        "ast": "",
-        "stl": "",
-        "to": "",
-        "pf": ""
+        "min": "COACH'S DECISION"
     },
     {
         "name": "Josh Richardson",
         "nameAbv": "J. Richardson",
-        "min": "LEFT FOOT SPRAIN",
-        "pts": "",
-        "fgmA": "",
-        "ftmA": "",
-        "threepmA": "",
-        "reb": "",
-        "ast": "",
-        "stl": "",
-        "to": "",
-        "pf": ""
+        "min": "LEFT FOOT SPRAIN"
     },
     {
         "name": "Dion Waiters",
         "nameAbv": "D. Waiters",
-        "min": "LEFT ANKLE SPRAIN",
-        "pts": "",
-        "fgmA": "",
-        "ftmA": "",
-        "threepmA": "",
-        "reb": "",
-        "ast": "",
-        "stl": "",
-        "to": "",
-        "pf": ""
+        "min": "LEFT ANKLE SPRAIN"
     },
     {
         "name": "Giannis Antetokounmpo",
@@ -192,8 +165,9 @@
         "reb": "8",
         "ast": "1",
         "stl": "2",
-        "to": "1",
-        "pf": "4"
+        "blk": "1",
+        "to": "4",
+        "pf": "1"
     },
     {
         "name": "Tony Snell",
@@ -206,7 +180,8 @@
         "reb": "2",
         "ast": "1",
         "stl": "0",
-        "to": "0",
+        "blk": "0",
+        "to": "1",
         "pf": "1"
     },
     {
@@ -220,8 +195,9 @@
         "reb": "5",
         "ast": "0",
         "stl": "3",
+        "blk": "2",
         "to": "2",
-        "pf": "2"
+        "pf": "4"
     },
     {
         "name": "Jabari Parker",
@@ -234,8 +210,9 @@
         "reb": "1",
         "ast": "2",
         "stl": "1",
-        "to": "0",
-        "pf": "2"
+        "blk": "0",
+        "to": "2",
+        "pf": "3"
     },
     {
         "name": "Matthew Dellavedova",
@@ -248,8 +225,9 @@
         "reb": "1",
         "ast": "1",
         "stl": "0",
+        "blk": "0",
         "to": "0",
-        "pf": "0"
+        "pf": "1"
     },
     {
         "name": "Malcolm Brogdon",
@@ -262,8 +240,9 @@
         "reb": "2",
         "ast": "6",
         "stl": "3",
-        "to": "0",
-        "pf": "1"
+        "blk": "0",
+        "to": "1",
+        "pf": "2"
     },
     {
         "name": "Greg Monroe",
@@ -276,8 +255,9 @@
         "reb": "7",
         "ast": "2",
         "stl": "0",
+        "blk": "0",
         "to": "0",
-        "pf": "0"
+        "pf": "2"
     },
     {
         "name": "Khris Middleton",
@@ -290,8 +270,9 @@
         "reb": "2",
         "ast": "2",
         "stl": "0",
-        "to": "1",
-        "pf": "0"
+        "blk": "1",
+        "to": "0",
+        "pf": "1"
     },
     {
         "name": "Jason Terry",
@@ -304,8 +285,9 @@
         "reb": "1",
         "ast": "3",
         "stl": "1",
+        "blk": "0",
         "to": "0",
-        "pf": "0"
+        "pf": "3"
     },
     {
         "name": "Mirza Teletovic",
@@ -318,6 +300,7 @@
         "reb": "2",
         "ast": "0",
         "stl": "0",
+        "blk": "0",
         "to": "0",
         "pf": "0"
     },
@@ -332,35 +315,18 @@
         "reb": "3",
         "ast": "0",
         "stl": "0",
-        "to": "0",
-        "pf": "2"
+        "blk": "0",
+        "to": "2",
+        "pf": "0"
     },
     {
         "name": "Thon Maker",
         "nameAbv": "T. Maker",
-        "min": "COACH'S DECISION",
-        "pts": "",
-        "fgmA": "",
-        "ftmA": "",
-        "threepmA": "",
-        "reb": "",
-        "ast": "",
-        "stl": "",
-        "to": "",
-        "pf": ""
+        "min": "COACH'S DECISION"
     },
     {
         "name": "Rashad Vaughn",
         "nameAbv": "R. Vaughn",
-        "min": "COACH'S DECISION",
-        "pts": "",
-        "fgmA": "",
-        "ftmA": "",
-        "threepmA": "",
-        "reb": "",
-        "ast": "",
-        "stl": "",
-        "to": "",
-        "pf": ""
+        "min": "COACH'S DECISION"
     }
 ]

@@ -22,23 +22,24 @@ app.get('/scrape', function(req, res){
       rebounds - 7
       assists - 8
       steals - 9
-      turnovers - 10
-      personalfouls - 11
+      blocks - 10
+      turnovers - 11
+      personalfouls - 12
       */
-      var name, nameAbv, min, pts, fgmA, ftmA, threepmA, reb, ast, stl, to, pf;
-      var attrs = [name, nameAbv, min, pts, fgmA, ftmA, threepmA, reb, ast, stl, to, pf];
-      var keys = ["name", "nameAbv", "min", "pts", "fgmA", "ftmA", "threepmA", "reb", "ast", "stl", "to", "pf"];
+      var name, nameAbv, min, pts, fgmA, ftmA, threepmA, reb, ast, stl, blk, to, pf;
+      var attrs = [name, nameAbv, min, pts, fgmA, ftmA, threepmA, reb, ast, stl, blk, to, pf];
+      var keys = ["name", "nameAbv", "min", "pts", "fgmA", "ftmA", "threepmA", "reb", "ast", "stl", "blk", "to", "pf"];
       var players = [];
       var rowlinkLength = $('.rowlink').length;
       for (var j = 0; j < $('.rowlink').length; j++){
         var json = {};
         $('.rowlink').eq(j).filter(function(){
           var data = $(this);
-          for (var i = 0; i <= 11; i++){
+          for (var i = 0; i < data.children().length; i++){
             attrs[i] = data.children().eq(i).text();
-            if (data.children().length < 12) {
-              json[keys[i]] = 0;
-            }
+            // if (data.children().length < 12) {
+            //   json[keys[i]] = 0;
+            // }
             json[keys[i]] = attrs[i];
           }
           players.push(json);
