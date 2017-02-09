@@ -5,7 +5,7 @@ var express = require('express'),
 var app     = express();
 
 app.get('/scrape', function(req, res){
-  var url = 'https://www.msn.com/en-us/sports/nba/phoenix-suns-at-memphis-grizzlies/game-center/sp-id-30401000001674464';
+  var url = 'https://www.msn.com/en-us/sports/nba/utah-jazz-at-new-orleans-pelicans/game-center/sp-id-30401000001674971';
 
   request(url, function(error, response, html){
     if (error){console.log(error);}
@@ -42,7 +42,7 @@ app.get('/scrape', function(req, res){
           players.push(json);
         });
       }
-      fs.writeFile('sunsgrizzlies.json', JSON.stringify(players, null, 4), function(err){
+      fs.writeFile('jazzpelicans.json', JSON.stringify(players, null, 4), function(err){
       console.log('File successfully written! - Check your project directory for the output.json file');
       });
     }
